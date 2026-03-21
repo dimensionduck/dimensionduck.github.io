@@ -4,6 +4,10 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 7.5"
 
+# 👉 ADD THESE TWO LINES HERE
+gem "sassc-embedded", "~> 1.0"
+gem "sass-embedded", "!= 1.98.0"
+
 gem "html-proofer", "~> 5.0", group: :test
 
 platforms :windows, :jruby do
